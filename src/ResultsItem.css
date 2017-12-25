@@ -1,0 +1,11 @@
+.ResultsItem {
+  list-style: none;
+}
+
+.ResultsItem--passed {
+  color: rgb(105, 149, 74);
+}
+
+.ResultsItem--failed {
+  color: rgb(221, 77, 77)
+}

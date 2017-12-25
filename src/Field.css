@@ -1,0 +1,15 @@
+.Field {
+  padding: 2em;
+  max-width: 100%;
+}
+
+.Field-input {
+  border: 1px solid #cecece;
+  padding: 2em;
+}
+
+@media (max-width: 400px) {
+  .Field {
+    padding: 0.5em;
+  }
+}

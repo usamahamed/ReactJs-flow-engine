@@ -1,0 +1,15 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #FEFEFE;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+
+@media (max-width: 400px) {
+  .App {
+    max-width: 100%;
+    padding: 0.5em;
+  }
+}

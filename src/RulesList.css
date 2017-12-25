@@ -1,0 +1,33 @@
+.RulesList {
+  list-style: none;
+  padding: 0px;
+}
+
+.RulesList-item {
+  list-style: none;
+  min-height: 3em;
+  border-bottom: 1px solid #cecece;
+  display: flex;
+}
+
+.RulesList-item:last-child {
+  border: 0px;
+}
+
+.RulesList-item-title {
+  align-self: center;
+  flex: 1;
+}
+
+.RulesList-delete {
+  background: none;
+  border: none;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+@media (max-width: 400px) {
+  .RulesList-item {
+    padding: 1em;
+  }
+}

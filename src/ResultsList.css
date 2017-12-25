@@ -1,0 +1,24 @@
+.ResultsList {
+  padding: 2em;
+}
+
+.ResultsList-items{
+  padding: 0px;
+  list-style: none;
+}
+
+.ResultsList-item {
+  list-style: none;
+}
+
+.ResultsList-item--passed {
+  color: rgb(105, 149, 74);
+}
+
+.ResultsList-item--failed {
+  color: rgb(126, 40, 40);
+}
+
+.ResultsList-footer {
+  color: #cecece;
+}

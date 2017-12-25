@@ -1,0 +1,43 @@
+{
+  "name": "ReactFlowEngine",
+  "version": "0.1.19",
+  "private": true,
+  "description": "Flow engine is an application that executes a flow consisting of linked rules against incoming data",
+  "homepage": "https://github.com/usamahamed/ReactJs-flow-engine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usamahamed/ReactJs-flow-engine"
+  },
+  "keywords": [
+    "javascript",
+    "react"
+  ],
+  "author": "usamahamed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usamahamed/ReactJs-flow-engine/issues"
+  },
+  "dependencies": {
+    "enzyme-adapter-react-16": "^1.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "^1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "eslint": "^4.8.0",
+    "gh-pages": "^1.0.0",
+    "jest-enzyme": "^4.0.1",
+    "react-test-renderer": "^16.0.0"
+  }
+}
