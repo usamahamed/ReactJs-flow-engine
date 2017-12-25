@@ -29,9 +29,7 @@
     "test": "react-scripts test --env=jsdom",
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject",
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "enzyme": "^3.1.0",
