@@ -59,3 +59,21 @@ Notes from IT
 -------------
 - Please don't spend more than 3 - 4 hours on this task.
 - Provided mockup is just an idea how we want you to implemnet the UI. We indeed don't need you to provide the exact same design! Feel free to be creative!
+
+## Install
+
+Run `yarn install` (it should also work with NPM).
+
+## Run
+
+Run `yarn start`
+
+## Build
+
+Run `yarn run build`.
+
+You can try it out locally by running `yarn run start` on your browser
+## Test
+
+Run `yarn test` 
+
